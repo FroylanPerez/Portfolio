@@ -1,0 +1,86 @@
+h1 {
+    color: blue;
+    margin: 10px auto;
+}
+
+hr {
+    size: 7px;
+}
+
+img {
+    width: 200px;
+    height: 130px;
+    margin: 7px auto;
+}
+
+a {
+    color: blue;
+}
+
+.navbar-brand {
+    color: blueviolet;
+}
+
+.text-primary {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    background-color: aqua;
+}
+
+.row {
+    margin: 7px auto;
+    
+}
+
+footer {
+    background-color: aqua;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 880px;
+    float: left;
+    margin: 20px 30px;
+}
+
+button {
+    background-color: aqua;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px auto;
+    width: 110px;
+}
+
+#name, #mail {
+    width: 95%;
+}
+
+#msg {
+    width: 95%;
+    height: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 450px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .text-primary {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+    img {
+        width: 100px;
+        height: 65px;
+    }
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
